@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<script>
+    var CurrentPassword = "Ubuntu";
+    var CurrentUsername = "Admin";
+</script>
+<html>
+    <body>
+        <style>
+            #WebLinks{
+                background-position: center;
+                background-color: gray;
+            }
+        </style>
+        <div id="Login">
+            <input type="Username" id="Username" placeholder="Username:">
+            <input type="password" id="Password" placeholder="Password">
+            <button type="button" onclick="Login()">Login</button>
+
+            <script>
+                function Login(){
+                    if(document.getElementById('Username').value == CurrentUsername){
+                        if (document.getElementById('Password').value == CurrentPassword){
+                            console.log("Wello " + CurrentUsername);
+                            window.location.href = ("Loggedin.html");
+                        }
+                    }
+                }
+            </script>
+        </div>
+    </body>
+</html>
