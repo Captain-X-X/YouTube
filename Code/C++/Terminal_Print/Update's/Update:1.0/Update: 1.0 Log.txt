@@ -1,0 +1,8 @@
+
+Update 1.0
+
+You can now color text
+Color Codes 1,2,3.
+1 = Red
+2 = Blue
+3 = Black
