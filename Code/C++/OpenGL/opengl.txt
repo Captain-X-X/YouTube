@@ -1,0 +1,6 @@
+You will need:
+
+https://www.glfw.org/
+http://glew.sourceforge.net/
+https://glad.dav1d.de/    
+for glad use -GL version 3.3
